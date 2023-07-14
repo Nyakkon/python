@@ -4,16 +4,18 @@
 # 25 nhỏ hơn hoặc bằng bmi nhỏ hơn 30 (Thừa cân)
 # Trường hợp còn lại = Béo phì
 
-weight = float(input("Nhập cân nặng của bạn (kg): "))
-height = float(input("Nhập chiều cao của bạn (m): "))
+weight = float(input("Nhập cân nặng của bạn: "))
+height = float(input("Nhập chiều cao của bạn: "))
 
-bmi = weight / (height ** 2)
+bmi = weight / (height**2)
+
 
 if bmi < 18.5:
-    print("BMI của bạn là", bmi, "- Dưới chuẩn")
-elif bmi <= 25:
-    print("BMI của bạn là", bmi, "- Bình thường")
-elif bmi <= 30:
-    print("BMI của bạn là", bmi, "- Thừa cân")
+    print("Dưới chuẩn")
+
+elif 18.5 <= bmi < 25:
+    print("Bình thường")
+elif 25 < bmi < 30:
+    print("Thừa cân")
 else:
-    print("BMI của bạn là", bmi, "- Béo phì")
+    print("Thừa cân")
