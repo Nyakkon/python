@@ -13,9 +13,10 @@ bmi = weight / (height**2)
 if bmi < 18.5:
     print("Dưới chuẩn")
 
-elif 18.5 <= bmi < 25:
-    print("Bình thường")
+elif bmi <= 25:
+    print("BMI của bạn là", bmi, "- Bình thường")
 elif 25 < bmi < 30:
     print("Thừa cân")
 else:
-    print("Thừa cân")
+    print("BMI của bạn là", bmi, "- Béo phì")
+    
