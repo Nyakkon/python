@@ -17,3 +17,4 @@ elif bmi <= 30:
     print("BMI của bạn là", bmi, "- Thừa cân")
 else:
     print("BMI của bạn là", bmi, "- Béo phì")
+    
