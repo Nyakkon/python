@@ -13,3 +13,21 @@
 # Giải thích: avg = (10+20+20)/3 = 20 nên avg chỉ lớn hơn a.
 
 # Dùng input()
+a = int(input("Nhập giá trị của a: "))
+b = int(input("Nhập giá trị của b: "))
+c = int(input("Nhập giá trị của c: "))
+
+avg = (a + b + c) / 3
+
+if avg > a and avg > b:
+    print("The average value is greater than both a and b")
+elif avg > a and avg > c:
+    print("The average value is greater than both a and c")
+elif avg > b and avg > c:
+    print("The average value is greater than both b and c")
+elif avg > a:
+    print("The average value is greater than a")
+elif avg > b:
+    print("The average value is greater than b")
+elif avg > c:
+    print("The average value is greater than c")
