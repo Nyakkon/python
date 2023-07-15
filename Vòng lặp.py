@@ -13,10 +13,10 @@ print("Tổng các số từ 1 đến", number, "là:", total)
 #bài 2:
 
 num = 2
-while num <= 100
+while num <= 100:
     check = True
 
-    if num == 2
+    if num == 2:
         check = True
     else:
         test = 2
